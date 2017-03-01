@@ -10,6 +10,6 @@ int main()
     printf("How old are you?\n");
     scanf("%d", &age);
     printf("%s, you're %d years old.\n", name, age);
-    printf("Nice to meet you, %s", name);
+    printf("Nice to meet you, %s. Goodbye.", name);
     return 0;
 }
